@@ -21,7 +21,7 @@ env:
 
 jobs:
   terraform:
-    name: "Apply terrraform changes"
+    name: "Apply Terraform changes"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Terraform with specified version on the runner
-        uses: hashicorp/setup-terraform@v2
+        uses: hashicorp/setup-terraform@v2.2.0 # Updated version
         
       - name: Terraform init
         id: init
