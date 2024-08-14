@@ -9,5 +9,4 @@ variable "clusterName" {
   type        = string
   default     = "vpro-eks"
 }
-
-#Test workflow, updated with terraform apply 
+#Trigger
