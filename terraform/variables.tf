@@ -10,4 +10,4 @@ variable "clusterName" {
   default     = "vpro-eks"
 }
 
-#Test workflow, updated with terraform apply 
+#Test workflow, updated without terraform apply 
