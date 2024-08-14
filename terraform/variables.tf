@@ -10,4 +10,4 @@ variable "clusterName" {
   default     = "vpro-eks"
 }
 
-#Test workflow
+#Test workflow, updated setup-terraform v3.1.1
